@@ -7,8 +7,7 @@
 //
 
 #import "SPLaunchViewController.h"
-#import <UIImageView+WebCache.h>
-//#import <UIImage+GIF.h>
+#import "UIImageView+WebCache.h"
 #import "UIImage+SPGif.h"
 
 #define SPScreenBounds [UIScreen mainScreen].bounds

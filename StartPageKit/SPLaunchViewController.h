@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SPRootTabbarController.h"
 
 typedef NS_ENUM(NSInteger,SPLaunchType){
     SPLaunchNormal,//默认启动图
