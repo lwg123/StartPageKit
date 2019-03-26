@@ -82,6 +82,8 @@
     
 }
 
-
+- (void)launchAdImgViewAction:(id)sender withObject:(id)object {
+    
+}
 
 @end

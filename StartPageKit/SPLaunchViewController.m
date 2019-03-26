@@ -166,9 +166,14 @@
 
 - (void)setupEnterBtn{
     self.enterBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.enterBtn.frame = CGRectMake(SPScreenBounds.size.width/2 - 60, SPScreenBounds.size.height - 120, 120, 40);
+    self.enterBtn.frame = CGRectMake(SPScreenBounds.size.width/2 - 100, SPScreenBounds.size.height - 120, 200, 40);
     self.enterBtn.tintColor = [UIColor lightGrayColor];
-    [self.enterBtn setImage:[UIImage imageNamed:@"XYEnter"] forState:UIControlStateNormal];
+    [self.enterBtn setTitle:@"进入应用" forState:UIControlStateNormal];
+    [self.enterBtn setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+    self.enterBtn.layer.masksToBounds = YES;
+    self.enterBtn.layer.cornerRadius = 20;
+    self.enterBtn.layer.borderWidth = 1.0;
+    self.enterBtn.layer.borderColor = [UIColor lightGrayColor].CGColor;
     [self.enterBtn addTarget:self action:@selector(skipTap) forControlEvents:UIControlEventTouchUpInside];
     
 }
