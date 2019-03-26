@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A024220BF692032B815B99C1 /* libPods-StartPageAdvertisingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C40710ABEAB58185A0362B /* libPods-StartPageAdvertisingDemo.a */; };
+		D13C716B2249C4B900E882D5 /* SPIntroductionPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D13C716A2249C4B900E882D5 /* SPIntroductionPage.m */; };
 		D1476018224099820086CFED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1476017224099820086CFED /* AppDelegate.m */; };
 		D147601B224099820086CFED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D147601A224099820086CFED /* ViewController.m */; };
 		D147601E224099820086CFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D147601C224099820086CFED /* Main.storyboard */; };
@@ -49,6 +50,8 @@
 /* Begin PBXFileReference section */
 		53C40710ABEAB58185A0362B /* libPods-StartPageAdvertisingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StartPageAdvertisingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C921DE8E513DB5A69276326 /* Pods-StartPageAdvertisingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartPageAdvertisingDemo.debug.xcconfig"; path = "Target Support Files/Pods-StartPageAdvertisingDemo/Pods-StartPageAdvertisingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D13C71692249C4B900E882D5 /* SPIntroductionPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPIntroductionPage.h; sourceTree = "<group>"; };
+		D13C716A2249C4B900E882D5 /* SPIntroductionPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPIntroductionPage.m; sourceTree = "<group>"; };
 		D1476013224099820086CFED /* StartPageAdvertisingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartPageAdvertisingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1476016224099820086CFED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1476017224099820086CFED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -212,10 +215,12 @@
 		D1CE3F3522435FD8002713C6 /* StartPageKit */ = {
 			isa = PBXGroup;
 			children = (
-				D1CE3F3622435FD8002713C6 /* UIImage+SPGif.h */,
 				D1CE3F3722435FD8002713C6 /* SPLaunchViewController.h */,
 				D1CE3F3822435FD8002713C6 /* SPLaunchViewController.m */,
+				D1CE3F3622435FD8002713C6 /* UIImage+SPGif.h */,
 				D1CE3F3922435FD8002713C6 /* UIImage+SPGif.m */,
+				D13C71692249C4B900E882D5 /* SPIntroductionPage.h */,
+				D13C716A2249C4B900E882D5 /* SPIntroductionPage.m */,
 			);
 			path = StartPageKit;
 			sourceTree = SOURCE_ROOT;
@@ -357,6 +362,7 @@
 				D1CE3F3B22435FD8002713C6 /* UIImage+SPGif.m in Sources */,
 				D1476026224099840086CFED /* main.m in Sources */,
 				D14760352240A1040086CFED /* SPFirstViewController.m in Sources */,
+				D13C716B2249C4B900E882D5 /* SPIntroductionPage.m in Sources */,
 				D1476018224099820086CFED /* AppDelegate.m in Sources */,
 				D147603B2240A12A0086CFED /* SPThirdViewController.m in Sources */,
 			);
